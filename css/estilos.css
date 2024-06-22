@@ -1,0 +1,399 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #00419B;
+	
+}
+header{
+	padding-top: 2%;
+	padding-right: 7%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	width: 100%;
+	height: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	border-block-end: 2px solid rgb(0, 0, 0); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}	
+
+nav ul{
+	margin-top: 3%;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+
+nav ul li a{
+	font-size: 1.2rem;
+	padding-right: 2rem;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+	font-weight: 800;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+.icon { display: none; }
+section{
+	max-width: 1300px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+}
+.principal{
+	width: 100%;
+	height: 650px;
+	margin: 2% auto;
+	background-image: url(../images/Blue_Lock_fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#000;
+	border: 4px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border-radius: 1%;
+
+	
+}
+/*.principal div h2{
+	display: none;
+
+}*/
+
+h1{
+	font-size: 2.6rem;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.texto_principal{
+	font-size: 1.3rem;
+	margin: 3% auto;
+}
+
+.trailer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.trailer iframe {
+	margin: 1% auto;
+	width: 560px; 
+	height: 315px; 
+	border: 4px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	
+}
+
+
+.texto_secundario{
+	font-size: 1.3rem;
+	margin: 3% auto;
+}
+
+.secundario{
+	margin: 5% auto;
+	display: flex;
+}
+
+.secundario div{
+	width: 33%;
+	padding: 2%;
+	text-align: center;
+	
+	
+}
+.secundario div a img{
+	width: 100%;
+	margin-bottom: 2rem;
+	height: auto; 
+    object-fit: cover; 
+    max-height: 200px;
+	border: 3px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	
+}
+
+.secundario div a img:hover{
+	opacity: 1;
+	border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.galeria{
+	margin: 5% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5%;
+}
+
+.galeria a {
+    flex: 1 1 23%;
+    margin: 0.5%; /* Margen para dar espacio entre las imágenes */
+    box-sizing: border-box; 
+    text-align: center;
+    max-width: 23%; 
+}
+
+.galeria a img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 300px; 
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.galeria a img:hover{
+	opacity: 1;
+	border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h4{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.personaje {
+	overflow: auto;
+	border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 2%;
+	background-color: white;
+	color: #000;
+	margin-bottom: 5%;
+}
+.personaje img {
+	float: right;
+	max-width: 55%; 
+	height: auto;
+	margin-left: 5%; 
+	margin-bottom: 5% ;
+}
+
+.personaje p {
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+
+footer{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	border-top: 3px solid rgb(0, 0, 0); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+
+footer a {
+    margin: 0 5px ; /* Añade un margen horizontal entre los enlaces */
+}
+
+footer img{
+	max-width: 2.5rem;
+	width: 100%;
+	height: auto;
+	margin-right: .5%;
+	
+}
+
+.arreglo_footer img{
+	max-width: 2.5rem;
+	width: 100%;
+	height: 40px;
+	margin-right: .5%;
+}
+
+.derecho_autor{
+	position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    text-align: left;
+}
+
+.form{
+	width:100%;
+	height:440px;
+	background:#e6e6e6;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000;
+	margin:calc(1vh) auto;
+	padding:10px 30px;
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+	font-size: 14px;
+	position:relative
+}
+
+h3.contacto{
+	margin:10px 0;
+	padding-bottom:10px;
+	width:150px;
+	color:#78788c;
+	border-bottom:3px solid #78788c;
+	font-size: large;
+}
+
+input{
+	width:100%;
+	margin-top: 30px;
+	padding:10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	transition:all .3s;
+	border-bottom:2px solid #bebed2
+}
+
+input:focus{
+	border-bottom:2px solid #78788c
+}
+
+button{
+	padding:8px 12px;
+	margin:50px 0 0;
+	border:2px solid #78788c;
+	background:0;color:#5a5a6e;
+	cursor:pointer;
+	transition:all .3s;
+}
+
+button:hover{
+	background:#78788c;
+	color:#fff;
+}
+
+div.pie_contacto{
+	position:absolute;
+	bottom:-15px;
+	right:30%;
+	background:#50505a;
+	color:#fff;
+	width:420px;
+	padding:16px 4px 16px 0;
+	border-radius:6px;
+	box-shadow:10px 10px 40px -14px #000;
+}
+
+div.pie_contacto span{
+	margin:0 5px 0 15px;
+}
+
+@media (max-width: 480px) { 
+header{
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #ffffff;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+header div, header a {
+	flex: 1 0 50%;
+}
+header nav {
+	flex-basis: 100%;
+}
+.icon {
+	display: block;
+	padding-right: 0.6rem;
+	text-align: right;
+}
+nav ul {
+	display: none;
+}
+nav.responsive ul {
+	display: block;
+}
+nav.responsive ul li {
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
+}
+nav.responsive ul li a {
+	padding-right: 0;
+}
+section{
+	max-width: 480px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.principal{
+	height: 250px;
+	padding: 10%;
+}
+.secundario{
+	margin-top: 1%;
+	display: block;
+}
+.secundario div{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+.secundario div a img{
+	margin-bottom: 1rem;
+}
+
+.personaje {
+	margin-bottom: 8%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 8%;
+}
+
+.personaje img {
+	float: none;
+	max-width: 90%; 
+	margin: 0 0 8% auto 7%; 
+}
+.personaje p {
+	text-align: left; 
+	margin-top: 3%; 
+	margin-bottom: 3%;
+	margin-left: 2%;
+}
+
+h2{
+	font-size: 1rem;
+}
+h4{
+	font-size: 1rem;
+}
+footer{
+	height: 80px;
+	justify-content: space-evenly;
+}
+footer img{
+	max-width: 3rem;
+}
+}
