@@ -183,12 +183,18 @@ h4{
 	color: #000;
 	margin-bottom: 5%;
 }
+
+.personaje h2{
+	margin-bottom: 1%;
+	font-size: 1.8rem;
+}
+
 .personaje img {
 	float: right;
-	max-width: 55%; 
+	max-width: 50%; 
 	height: auto;
-	margin-left: 5%; 
-	margin-bottom: 5% ;
+	margin-left: 4%; 
+	margin-bottom: 4% ;
 }
 
 .personaje p {
