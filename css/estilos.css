@@ -213,6 +213,23 @@ h4{
 	font-size: 1.2rem;
 }
 
+.cara_imagen {
+	display: flex;
+	margin: 4% auto;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.cara_imagen  img {
+	width: 50%;
+	margin-bottom: 2rem;
+	height: auto; 
+    object-fit: cover; 
+   	max-height: 20%;
+	border: 3px solid rgb(255, 255, 255); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 footer{
 	width: 100%;
@@ -238,6 +255,10 @@ footer img{
 	margin-right: .5%;
 	
 }
+
+/*footer img:hover {
+	transform: scale(2);
+}*/
 
 .arreglo_footer img{
 	max-width: 2.5rem;
