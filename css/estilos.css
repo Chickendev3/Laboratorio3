@@ -231,6 +231,50 @@ h4{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.valoracion {
+	/*width: 85%;*/
+	height: auto;
+	border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 1%;
+	background-color: white;
+	color: #000;
+	margin-bottom: 5%;
+	border-radius: 1%;
+	
+}
+
+.contenedor {
+    display: flex;
+    align-items: center; 
+}
+
+.valoracion img {
+    max-width: 15%; 
+    height: auto;
+    margin-right: 0.9rem;
+	margin-top: -0.9rem;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+}
+
+.critico {
+    margin-bottom: 1%; /* Elimina los márgenes predeterminados */
+}
+
+.texto p {
+	font-size: 1.1rem;
+}
+
+.autor {
+    margin-top: 1%; /* Elimina el margen predeterminado del segundo h3 */
+}
+
+
 footer{
 	width: 100%;
 	height: 150px;
