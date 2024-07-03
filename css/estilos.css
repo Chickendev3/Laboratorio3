@@ -285,8 +285,13 @@ h4{
 	font-size: 1.8rem;
 }
 
-strong {
-	color: #000;
+strong{
+	color: #000000;
+}
+
+.creadores{
+	text-decoration: underline;
+	
 }
 
 footer{
