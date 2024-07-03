@@ -303,12 +303,13 @@ footer{
 	background-color: #ffffff;
 	border-top: 3px solid rgb(0, 0, 0); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
 	position: relative;
 }
 
 
 footer a {
-    margin: 0 5px ; /* Añade un margen horizontal entre los enlaces */
+    margin: 0 5px ; 
 }
 
 footer img{
@@ -319,9 +320,11 @@ footer img{
 	
 }
 
-/*footer img:hover {
-	transform: scale(2);
-}*/
+
+
+footer img:hover {
+	transform: scale(1.4);
+}
 
 .arreglo_footer img{
 	max-width: 2.5rem;
@@ -330,12 +333,16 @@ footer img{
 	margin-right: .5%;
 }
 
-.derecho_autor{
-	position: absolute;
+.derecho_autor {
+    position: absolute;
     bottom: 10px; 
-    left: 10px; 
-    text-align: left;
+    left: 50%; 
+    text-align: center; 
+    width: 100%; 
+    margin-left: -50%; 
 }
+
+
 
 .form{
 	width:100%;
