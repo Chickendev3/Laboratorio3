@@ -217,6 +217,46 @@ h4{
 	font-size: 1.2rem;
 }
 
+.contenedor-filosofias {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.filosofia{
+	
+	width: 50%;
+	margin: auto; 
+	border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 2%;
+	background-color: white;
+	color: #000;
+	margin-bottom: 4%;
+	border-radius: 1%;
+	text-align: center;
+}
+
+.filosofia img{
+	
+	width: 100%;
+	margin-bottom: 2rem;
+	height: auto; 
+    object-fit: cover; 
+   	max-height: 20%;
+	border: 3px solid rgb(255, 255, 255); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.filosofia h2{
+	
+}
+
+.filosofia p {
+	text-align: left;
+}
+
+
 .cara_imagen {
 	display: flex;
 	margin: 4% auto;
