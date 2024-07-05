@@ -219,22 +219,28 @@ h4{
 
 .contenedor-filosofias {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
-    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    gap: 2%; /* Añade un margen entre las cajitas */
+     
 }
 
-.filosofia{
-	
-	width: 50%;
-	margin: auto; 
-	border: 3px solid rgb(2, 2, 2); 
+.filosofia {
+    width: 48%; 
+    border: 3px solid rgb(2, 2, 2); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	padding: 2%;
-	background-color: white;
-	color: #000;
-	margin-bottom: 4%;
-	border-radius: 1%;
-	text-align: center;
+    padding: 2%;
+    background-color: white;
+    color: #000;
+    margin-bottom: 4%;
+    border-radius: 1%;
+    text-align: center;
+    box-sizing: border-box; 
+	position: relative;
+}
+
+.filosofia:hover{
+	transform: scale(1.06);
 }
 
 .filosofia img{
@@ -243,10 +249,12 @@ h4{
 	margin-bottom: 2rem;
 	height: auto; 
     object-fit: cover; 
-   	max-height: 20%;
-	border: 3px solid rgb(255, 255, 255); 
+   	max-height: 80%;
+	border: 3px solid rgb(0, 0, 0); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+
 
 .filosofia h2{
 	
@@ -256,6 +264,23 @@ h4{
 	text-align: left;
 }
 
+.filosofia .leer-mas {
+    display: block;
+    margin: 1rem auto 0; 
+    padding: 0.5rem 1rem;
+    background-color: #000000; 
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.filosofia .leer-mas:hover {
+    background-color: #000000; 
+	
+}
 
 .cara_imagen {
 	display: flex;
