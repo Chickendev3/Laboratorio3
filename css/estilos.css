@@ -586,45 +586,72 @@ div.pie_contacto span{
 }
 
 @media (max-width: 480px) { 
-header{
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	background-color: #ffffff;
-	position: sticky;
-	top: 0;
-	z-index: 1;
-}
-header div, header a {
-	flex: 1 0 50%;
-}
-header nav {
-	flex-basis: 100%;
-}
-.icon {
-	display: block;
-	padding-right: 0.6rem;
-	text-align: right;
-}
-nav ul {
-	display: none;
-}
-nav.responsive ul {
-	display: block;
-}
-nav.responsive ul li {
-	display: block;
-	text-align: center;
-	padding: 0.5rem;
-}
-nav.responsive ul li a {
-	padding-right: 0;
-}
+	header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        background-color: #ffffff;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        flex-wrap: wrap; 
+    }
+    
+    .logo {
+        flex: 1;
+    }
+
+    .icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        flex: 1;
+        text-align: right; 
+    }
+
+    nav {
+        display: none; 
+        width: 100%; 
+        flex-direction: column; 
+    }
+
+    nav.responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%; 
+        margin-top: 1rem; 
+    }
+
+    nav.responsive ul {
+        display: block; 
+        width: 100%; 
+    }
+
+    nav.responsive ul li {
+        display: block; 
+        text-align: center; 
+        padding: 0.4rem; 
+    }
+
+    nav.responsive ul li a {
+        padding-right: 0; 
+    }
+
+	
 section{
 	max-width: 480px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	
+}
+p{
+	padding: 4%;
+	text-align: left;
+	
+
 }
 .principal{
 	height: 250px;
@@ -641,7 +668,39 @@ section{
 }
 .secundario div a img{
 	margin-bottom: 1rem;
+	
 }
+
+.secundario div a img:hover {
+	opacity: 1;
+	border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.secundario div a h4{
+	font-size: 1.4rem;
+}
+
+h1{
+	font-size: 2.8rem;
+}
+
+
+.trailer {
+	padding: 4%;
+	
+}
+
+
+.trailer iframe {
+	margin: 1% auto;
+	width: 360px; 
+	height: 215px; 
+	border: 4px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	
+}
+
 
 .personaje {
 	margin-bottom: 8%;
@@ -669,10 +728,34 @@ h4{
 	font-size: 1rem;
 }
 footer{
-	height: 80px;
+	height: 150px;
 	justify-content: space-evenly;
 }
-footer img{
-	max-width: 3rem;
+footer a {
+    margin: 0 5px ; 
 }
+
+footer img{
+	max-width: 2.5rem;
+	width: 100%;
+	height: auto;
+	margin-right: .5%;
+	
+}
+
+footer img:hover {
+	transform: scale(1.4);
+}
+
+
+
+.derecho_autor {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    text-align: center; 
+    width: 100%; 
+	margin-left: -50%;
+}
+
 }
