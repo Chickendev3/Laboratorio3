@@ -408,14 +408,20 @@ footer img:hover {
     left: 50%; 
     text-align: center; 
     width: 100%; 
-    margin-left: -50%; 
+    
 }
 
-
+.forma_formulario {
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%; /* Añade un margen entre el formulario y la imagen */
+}
 
 .form{
-	width:100%;
-	height:440px;
+	width:50%;
+	height: 440px;
 	background:#e6e6e6;
 	border-radius:8px;
 	box-shadow:0 0 40px -10px #000;
@@ -427,12 +433,32 @@ footer img:hover {
 	position:relative
 }
 
+.imagen { /* Modificación: nueva clase para estilizar la imagen */
+    width: 40%; /* Modificación: Ajusta el ancho de la imagen */
+    max-height: 455px;
+    border: 3px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.imagen:hover { /* Modificación: Añadido hover effect para la imagen */
+    opacity: 1;
+    border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.imagen img:hover {
+    opacity: 1;
+    border: 3px solid rgb(2, 2, 2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 h3.contacto{
 	margin:10px 0;
 	padding-bottom:10px;
 	width:150px;
-	color:#78788c;
-	border-bottom:3px solid #78788c;
+	color:#000000;
+	border-bottom:3px solid #000000;
 	font-size: large;
 }
 
