@@ -55,8 +55,16 @@ a{
 	font-optical-sizing: auto;
 	font-weight: weight;
 	font-style: normal;
-	font-size: 2.4rem;
+	
 }
+
+p {
+	font-family: "Domine", serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
 .icon { display: none; }
 section{
 	max-width: 1300px;
@@ -128,8 +136,8 @@ h1{
 	text-align: center;
 	margin-top: 1.5em;
 	font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .texto_principal{
@@ -181,6 +189,8 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	
 }
+
+
 
 .secundario div a img:hover{
 	opacity: 1;
