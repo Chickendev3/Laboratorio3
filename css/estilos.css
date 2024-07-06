@@ -585,7 +585,7 @@ div.pie_contacto span{
 	margin:0 5px 0 15px;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 576px) { 
 	header {
         display: flex;
         align-items: center;
@@ -854,10 +854,11 @@ h4{
 }
 
 .imagen {
-	width: 80%; /* Ajusta el ancho de la imagen */
-	height: auto; /* Asegura que la altura se ajuste proporcionalmente */
-	margin-top: 1rem; /* Añade un margen superior para separar la imagen del formulario */
-	border-radius: 80%; /* Ajusta el borde redondeado */
+	width: 80%; 
+	height: auto; 
+	margin-top: 4%; 
+	margin-bottom: 8%;
+	border-radius: 80%; 
 	border: 3px solid rgb(255, 255, 255); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
