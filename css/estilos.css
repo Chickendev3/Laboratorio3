@@ -628,7 +628,7 @@ div.pie_contacto span{
         top: 0;
         z-index: 1;
         flex-wrap: wrap; 
-        width: 100%; /* Asegurarse de que el header ocupe todo el ancho */
+        width: 100%; 
     }
     
     .logo {
@@ -673,11 +673,11 @@ div.pie_contacto span{
     }
 
     section {
-        max-width: 100%; /* Ajustar para ocupar todo el ancho */
+        max-width: 100%; 
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding: 0 1rem; /* Añadir padding para centrar el contenido */
+        padding: 0 1rem;
     }
 
     p {
@@ -787,9 +787,9 @@ div.pie_contacto span{
 
     .trailer iframe {
         margin: 1% auto;
-        width: 100%; /* Ajustar para ocupar todo el ancho */
-        max-width: 360px; /* Ajuste para mantener la proporción */
-        height: auto; 
+        width: 100%; 
+        max-width: 500px;
+        height: 260px; 
         border: 4px solid white; 
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
