@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 body{
-	/*font-family: 'Rubik', sans-serif;*/
 	background-color: #00419B;
 	font-family: "Domine", serif;
 	font-optical-sizing: auto;
@@ -138,8 +137,8 @@ section{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 40px; /* Más pequeño */
-    height: 40px; /* Más pequeño */
+    width: 40px; 
+    height: 40px; 
     background-color: #000000f9;
     color: #fff536f9;
     border: none;
@@ -236,7 +235,7 @@ h1{
 
 .galeria a {
     flex: 1 1 23%;
-    margin: 0.5%; /* Margen para dar espacio entre las imágenes */
+    margin: 0.5%; 
     box-sizing: border-box; 
     text-align: center;
     max-width: 23%; 
@@ -308,7 +307,7 @@ h4{
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around;
-    gap: 2%; /* Añade un margen entre las cajitas */
+    gap: 2%; 
      
 }
 
@@ -514,7 +513,7 @@ footer img:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2%; /* Añade un margen entre el formulario y la imagen */
+    gap: 2%; 
 }
 
 .form{
@@ -534,8 +533,8 @@ footer img:hover {
 	margin-bottom: 4%;
 }
 
-.imagen { /* Modificación: nueva clase para estilizar la imagen */
-    width: 40%; /* Modificación: Ajusta el ancho de la imagen */
+.imagen { 
+    width: 40%; 
     max-height: 455px;
 	height: 800px;
     border: 3px solid white; 
@@ -576,7 +575,7 @@ input{
 }
 
 input::placeholder {
-    color: #000000; /* Color del placeholder */
+    color: #000000; 
 }
 
 input:focus{
@@ -592,8 +591,8 @@ button{
 	color:#000000;
 	cursor:pointer;
 	transition:all .3s;
-	width: 20%; /* Ajusta el ancho del botón */
-    max-width: 200px; /* Máximo ancho para que no sea demasiado grande */
+	width: 20%; 
+    max-width: 200px; 
     display: block;
     text-align: center;
 }
@@ -607,8 +606,8 @@ button:hover{
 div.pie_contacto {
     background: #000000;
     color: #fff;
-    width: 100%; /* Asegura que el pie de contacto ocupe todo el ancho del formulario */
-    text-align: center; /* Centra el contenido del pie de contacto */
+    width: 100%; 
+    text-align: center; 
     padding: 16px 4px;
     border-radius: 6px;
     box-shadow: 10px 10px 40px -14px #000;
