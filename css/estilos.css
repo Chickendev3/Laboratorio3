@@ -396,7 +396,7 @@ h4{
 }
 
 .critico {
-    margin-bottom: 1%; /* Elimina los márgenes predeterminados */
+    margin-bottom: 1%;
 }
 
 .texto p {
@@ -418,12 +418,18 @@ h4{
 }
 
 strong{
+	/*color: #a89292;*/
+	color: #fff536f9;
+
+}
+
+.personaje_mejorado{
 	color: #000000;
 }
 
 .creadores{
 	text-decoration: underline;
-	
+	color: #fff536f9;
 }
 
 footer{
