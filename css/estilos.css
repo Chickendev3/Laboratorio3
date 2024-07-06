@@ -687,7 +687,26 @@ p{
 
 }
 
+.scroll-to-top {
+    
+    right: 119px; 
+    bottom: 10px; 
+    width: 30px; 
+    height: 30px; 
+    font-size: 16px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #000000f9; 
+    color: #fff536f9; 
+    border: none; 
+    border-radius: 50%; 
+    z-index: 1000; 
+}
 
+.scroll-to-top:hover{
+	background-color: #000000f9; 
+}
 
 .galeria {
 	flex-direction: column;
@@ -726,22 +745,22 @@ p{
 }
 
 .filosofia img {
-	max-height: none; /* Permite que las imágenes se ajusten automáticamente */
+	max-height: none; 
 	height: auto;
 }
 
 .filosofia h2 {
-	text-align: center; /* Centra el texto del h2 */
-	font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+	text-align: center; 
+	font-size: 1.5rem; 
 }
 
 .filosofia p {
-	text-align: left; /* Alinea el texto a la izquierda */
+	text-align: left; 
 }
 
 .filosofia .leer-mas {
-	text-align: center; /* Centra el texto en el botón */
-        width: auto; /* Ajusta el ancho automáticamente */
+	text-align: center; 
+        width: auto; 
         padding: 0.5rem 1rem;
 }
 
