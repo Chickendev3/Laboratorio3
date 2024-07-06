@@ -115,6 +115,7 @@
             <p>Todo los derechos reservados: Timoteo Botello</p>
         </div>
     </footer>
+    <button class="scroll-to-top" onclick="scrollToTop()">↑</button>
     <script type="text/javascript">
         function myFunction() {
           var x = document.getElementById("menu_bar");
@@ -123,6 +124,9 @@
           } else {
             x.className = "";
           }
+        }
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
 </body>
