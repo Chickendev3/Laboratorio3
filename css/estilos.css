@@ -623,12 +623,13 @@ div.pie_contacto span{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1rem; /* Ajuste de padding uniforme */
+        padding: 0 1rem;
         background-color: #ffffff;
         position: sticky;
         top: 0;
         z-index: 1;
-        width: 100%;
+        flex-wrap: wrap; 
+		width: 100%;
     }
     
     .logo {
@@ -647,12 +648,6 @@ div.pie_contacto span{
         display: none; 
         width: 100%; 
         flex-direction: column; 
-        position: absolute; /* Ajuste para alinear opciones debajo */
-        top: 100%; /* Ajuste para alinear opciones debajo */
-        left: 0; /* Ajuste para alinear opciones debajo */
-        background-color: #ffffff; /* Fondo del menú */
-        border: 2px solid #000; /* Borde del menú */
-        z-index: 2; /* Capa superior para que esté encima del contenido */
     }
 
     nav.responsive {
@@ -678,9 +673,7 @@ div.pie_contacto span{
         padding-right: 0; 
     }
 
-    .icon.active + nav {
-        display: flex; /* Mostrar el menú al hacer clic en el icono */
-    }
+
 
     section {
         max-width: 100%; 
@@ -924,3 +917,4 @@ div.pie_contacto span{
         margin-left: -50%; /* Ajuste para centrar */
     }
 }
+
