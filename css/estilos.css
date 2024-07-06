@@ -48,6 +48,7 @@ nav ul li a:hover{
 	text-decoration: underline;
 	font-weight: 800;
 }
+
 a{
 	text-decoration: none;
 	color: #000000;
@@ -617,18 +618,17 @@ div.pie_contacto span{
 	margin:0 5px 0 15px;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 1rem;
+        padding: 1rem; /* Ajuste de padding uniforme */
         background-color: #ffffff;
         position: sticky;
         top: 0;
         z-index: 1;
-        flex-wrap: wrap; 
-        width: 100%; 
+        width: 100%;
     }
     
     .logo {
@@ -647,6 +647,12 @@ div.pie_contacto span{
         display: none; 
         width: 100%; 
         flex-direction: column; 
+        position: absolute; /* Ajuste para alinear opciones debajo */
+        top: 100%; /* Ajuste para alinear opciones debajo */
+        left: 0; /* Ajuste para alinear opciones debajo */
+        background-color: #ffffff; /* Fondo del menú */
+        border: 2px solid #000; /* Borde del menú */
+        z-index: 2; /* Capa superior para que esté encima del contenido */
     }
 
     nav.responsive {
@@ -672,12 +678,15 @@ div.pie_contacto span{
         padding-right: 0; 
     }
 
+    .icon.active + nav {
+        display: flex; /* Mostrar el menú al hacer clic en el icono */
+    }
+
     section {
         max-width: 100%; 
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 1rem;
+        margin: 0 auto; /* Centrar contenido */
+        padding: 1rem; /* Ajuste de padding uniforme */
     }
 
     p {
@@ -685,22 +694,9 @@ div.pie_contacto span{
         text-align: left;
     }
 
-	.scroll-to-top {
-    
-		right: 8px; 
-		bottom: 10px; 
-		width: 30px; 
-		height: 30px; 
-		font-size: 16px; 
-		display: flex; 
-		justify-content: center;
-		align-items: center;
-		background-color: #000000f9; 
-		color: #fff536f9; 
-		border: none; 
-		border-radius: 50%; 
-		z-index: 1000; 
-	}
+    .scroll-to-top {
+        display: none; /* Ocultar botón en pantallas pequeñas */
+    }
     
     .galeria {
         flex-direction: column;
@@ -756,8 +752,7 @@ div.pie_contacto span{
     }
 
     .secundario div {
-        margin-right: auto;
-        margin-left: auto;
+        margin: 0 auto; /* Centrar contenido */
         width: 90%;
     }
 
@@ -906,9 +901,9 @@ div.pie_contacto span{
     }
 
     footer {
-        height: 156px; 
-        padding: 1rem; 
-        width: 100%; 
+        height: auto; /* Permitir que el contenido del footer determine la altura */
+        padding: 1rem; /* Añadir padding para mayor espacio */
+        width: 100%; /* Asegurarse de que el footer ocupe todo el ancho */
         text-align: center;
     }
 
@@ -922,9 +917,10 @@ div.pie_contacto span{
 
     .derecho_autor {
         bottom: 10px; 
-        left: 118%; 
-        transform: translateX(-50%); 
+        left: 68%; /* Ajuste para centrar el texto */
+        transform: translateX(-50%); /* Centrar el texto */
         text-align: center; 
         width: 100%; 
+        margin-left: -50%; /* Ajuste para centrar */
     }
 }
