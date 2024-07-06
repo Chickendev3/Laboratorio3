@@ -648,7 +648,7 @@ section{
 	
 }
 p{
-	padding: 4%;
+	padding: 2%;
 	text-align: left;
 	
 
@@ -666,17 +666,17 @@ p{
 }
 
 .principal{
-	height: 250px;
+	height: 300px;
 	padding: 10%;
 }
 
 .principal_personaje{
-	height: 250px;
+	height: 300px;
 	padding: 10%;
 }
 
 .principal_filosofia{
-	height: 250px;
+	height: 300px;
 	padding: 10%;
 }
 
@@ -881,5 +881,13 @@ footer img:hover {
 	transform: scale(1);
 }
 
+.derecho_autor {
+    
+    bottom: 10px; 
+    left: 68%; 
+    text-align: center; 
+    width: 100%; 
+	margin-left: -50%;
+}
 
 }
