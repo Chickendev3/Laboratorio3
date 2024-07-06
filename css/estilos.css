@@ -679,13 +679,13 @@ div.pie_contacto span{
         padding-right: 0; 
     }
 
-
+    
 
     section {
         max-width: 100%; 
         width: 100%;
-        margin: 0 auto; /* Centrar contenido */
-        padding: 1rem; /* Ajuste de padding uniforme */
+        margin: 0 auto; 
+        padding: 1rem; 
     }
 
     p {
@@ -694,7 +694,7 @@ div.pie_contacto span{
     }
 
     .scroll-to-top {
-        display: none; /* Ocultar botón en pantallas pequeñas */
+        display: none; 
     }
     
     .galeria {
