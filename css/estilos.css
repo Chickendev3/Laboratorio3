@@ -751,7 +751,7 @@ div.pie_contacto span{
     }
 
     .secundario div {
-        margin: 0 auto; /* Centrar contenido */
+        margin: 0 auto; 
         width: 90%;
     }
 
@@ -900,9 +900,9 @@ div.pie_contacto span{
     }
 
     footer {
-        height: auto; /* Permitir que el contenido del footer determine la altura */
-        padding: 1rem; /* Añadir padding para mayor espacio */
-        width: 100%; /* Asegurarse de que el footer ocupe todo el ancho */
+        height: auto; 
+        padding: 1rem; 
+        width: 100%; 
         text-align: center;
     }
 
@@ -917,8 +917,6 @@ div.pie_contacto span{
         display: block;
     }
     .derecho_autor {
-         /* Ajuste para centrar el texto */
-         /* Centrar el texto */
         display: none;
        
     }
