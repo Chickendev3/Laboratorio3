@@ -497,11 +497,17 @@ footer img:hover {
 
 .derecho_autor {
     position: absolute;
-    bottom: 10px; 
+    bottom: 2px; 
     left: 50%; 
     text-align: center; 
     width: 100%; 
 	margin-left: -50%;
+}
+
+
+
+.copy_definido{
+    display: none;
 }
 
 .titulo_contacto{
@@ -907,14 +913,14 @@ div.pie_contacto span{
     footer img:hover {
         transform: scale(1);
     }
-
+    .copy_definido {
+        display: block;
+    }
     .derecho_autor {
-        bottom: 10px; 
-        left: 68%; /* Ajuste para centrar el texto */
-        transform: translateX(-50%); /* Centrar el texto */
-        text-align: center; 
-        width: 100%; 
-        margin-left: -50%; /* Ajuste para centrar */
+         /* Ajuste para centrar el texto */
+         /* Centrar el texto */
+        display: none;
+       
     }
 }
 
