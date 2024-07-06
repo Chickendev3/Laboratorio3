@@ -867,8 +867,6 @@ div.pie_contacto span{
 
     .personaje p {
         text-align: left; 
-        margin-top: 3%; 
-        margin-bottom: 3%;
         margin-left: 2%;
     }
 
@@ -908,7 +906,7 @@ div.pie_contacto span{
     }
 
     footer {
-        height: auto; 
+        height: 156px; 
         padding: 1rem; 
         width: 100%; 
         text-align: center;
@@ -924,7 +922,7 @@ div.pie_contacto span{
 
     .derecho_autor {
         bottom: 10px; 
-        left: 50%; 
+        left: 118%; 
         transform: translateX(-50%); 
         text-align: center; 
         width: 100%; 
