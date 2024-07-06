@@ -618,7 +618,7 @@ div.pie_contacto span{
 }
 
 @media (max-width: 576px) { 
-	header {
+    header {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -628,6 +628,7 @@ div.pie_contacto span{
         top: 0;
         z-index: 1;
         flex-wrap: wrap; 
+        width: 100%; /* Asegurarse de que el header ocupe todo el ancho */
     }
     
     .logo {
@@ -671,276 +672,261 @@ div.pie_contacto span{
         padding-right: 0; 
     }
 
-	
-section{
-	max-width: 480px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-p{
-	padding: 2%;
-	text-align: left;
-	
+    section {
+        max-width: 100%; /* Ajustar para ocupar todo el ancho */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1rem; /* Añadir padding para centrar el contenido */
+    }
 
-}
+    p {
+        padding: 2%;
+        text-align: left;
+    }
 
-/*.scroll-to-top {
+	.scroll-to-top {
     
-    right: 119px; 
-    bottom: 10px; 
-    width: 30px; 
-    height: 30px; 
-    font-size: 16px; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    background-color: #000000f9; 
-    color: #fff536f9; 
-    border: none; 
-    border-radius: 50%; 
-    z-index: 1000; 
-}*/
+		right: 8px; 
+		bottom: 10px; 
+		width: 30px; 
+		height: 30px; 
+		font-size: 16px; 
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+		background-color: #000000f9; 
+		color: #fff536f9; 
+		border: none; 
+		border-radius: 50%; 
+		z-index: 1000; 
+	}
+    
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.scroll-to-top:hover{
-	background-color: #000000f9; 
-}
+    .galeria a {
+        flex: 1 1 100%; 
+        max-width: 90%; 
+        margin: 1rem 0; 
+    }
 
-.galeria {
-	flex-direction: column;
-	align-items: center;
-}
+    .principal,
+    .principal_personaje,
+    .principal_filosofia {
+        height: 300px;
+        padding: 10%;
+    }
 
-.galeria a {
-	flex: 1 1 100%; 
-	max-width: 90%; 
-	margin: 1rem 0; 
-}
+    .contenedor-filosofias {
+        flex-direction: column; 
+        align-items: center; 
+    }
 
-.principal{
-	height: 300px;
-	padding: 10%;
-}
+    .filosofia {
+        width: 90%; 
+        margin-bottom: 2rem; 
+    }
 
-.principal_personaje{
-	height: 300px;
-	padding: 10%;
-}
+    .filosofia img {
+        max-height: none; 
+        height: auto;
+    }
 
-.principal_filosofia{
-	height: 300px;
-	padding: 10%;
-}
+    .filosofia h2 {
+        text-align: center; 
+        font-size: 1.5rem; 
+    }
 
-.contenedor-filosofias {
-	flex-direction: column; 
-	align-items: center; 
-}
+    .filosofia p {
+        text-align: left; 
+    }
 
-.filosofia {
-	width: 90%; 
-	margin-bottom: 2rem; 
-}
-
-.filosofia img {
-	max-height: none; 
-	height: auto;
-}
-
-.filosofia h2 {
-	text-align: center; 
-	font-size: 1.5rem; 
-}
-
-.filosofia p {
-	text-align: left; 
-}
-
-.filosofia .leer-mas {
-	text-align: center; 
+    .filosofia .leer-mas {
+        text-align: center; 
         width: auto; 
         padding: 0.5rem 1rem;
-}
+    }
 
-.secundario{
-	margin-top: 1%;
-	display: block;
-}
-.secundario div{
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
-}
-.secundario div a img{
-	margin-bottom: 1rem;
-	
-}
+    .secundario {
+        margin-top: 1%;
+        display: block;
+    }
 
-.secundario div a img:hover {
-	opacity: 1;
-	border: 3px solid rgb(2, 2, 2); 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+    .secundario div {
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
 
-.secundario div a h4{
-	font-size: 1.4rem;
-}
+    .secundario div a img {
+        margin-bottom: 1rem;
+    }
 
-h1{
-	font-size: 2.8rem;
-	padding: 2%;
-	margin-top: 5%;
-}
+    .secundario div a img:hover {
+        opacity: 1;
+        border: 3px solid rgb(2, 2, 2); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
+    .secundario div a h4 {
+        font-size: 1.4rem;
+    }
 
-.trailer {
-	padding: 4%;
-	
-}
+    h1 {
+        font-size: 2.8rem;
+        padding: 2%;
+        margin-top: 5%;
+    }
 
+    .trailer {
+        padding: 4%;
+    }
 
-.trailer iframe {
-	margin: 1% auto;
-	width: 360px; 
-	height: 215px; 
-	border: 4px solid white; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	
-}
+    .trailer iframe {
+        margin: 1% auto;
+        width: 100%; /* Ajustar para ocupar todo el ancho */
+        max-width: 360px; /* Ajuste para mantener la proporción */
+        height: auto; 
+        border: 4px solid white; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
-.titulo_centrado{
-	text-align: center;
-	padding: 4%;
-}
+    .titulo_centrado {
+        text-align: center;
+        padding: 4%;
+    }
 
-.subtitulo{
-	text-align: center;
-	
-}
+    .subtitulo {
+        text-align: center;
+    }
 
-.cara_imagen img {
-	width: 100%; 
-	max-height: 80%; 
-	border: 3px solid rgb(0, 0, 0); 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	margin-bottom: 1%;
-}
+    .cara_imagen img {
+        width: 100%; 
+        max-height: 80%; 
+        border: 3px solid rgb(0, 0, 0); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-bottom: 1%;
+    }
 
-.valoracion {
-	display: flex;
-	flex-direction: column;
-	align-items: center; 
-	padding: 2%; 
-	margin: 2% 5% 8%;
-}
+    .valoracion {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 2%; 
+        margin: 2% 5% 8%;
+    }
 
-.contenedor {
-	display: flex;
-	flex-direction: column; 
-	align-items: flex-start; 
-	width: 100%; 
-}
+    .contenedor {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        width: 100%; 
+    }
 
-.valoracion img {
-	max-width: 80%; 
-	height: auto;
-	margin: 0 auto; 
-	margin-bottom: 1rem; 
-}
+    .valoracion img {
+        max-width: 80%; 
+        height: auto;
+        margin: 0 auto; 
+        margin-bottom: 1rem; 
+    }
 
-.critico {
-	width: 100%;
-	text-align: left; 
-	margin-bottom: 1rem; 
-	font-size: 1.4rem;
-}
+    .critico {
+        width: 100%;
+        text-align: left; 
+        margin-bottom: 1rem; 
+        font-size: 1.4rem;
+    }
 
-.texto p {
-	text-align: left; 
-	font-size: 1.2rem; 
-	margin-bottom: 1rem; 
-}
+    .texto p {
+        text-align: left; 
+        font-size: 1.2rem; 
+        margin-bottom: 1rem; 
+    }
 
-.autor {
-	width: 100%;
-	text-align: left; 
-	font-size: 1.4rem;
-}
+    .autor {
+        width: 100%;
+        text-align: left; 
+        font-size: 1.4rem;
+    }
 
+    .personaje {
+        margin-bottom: 8%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 8%;
+    }
 
-.personaje {
-	margin-bottom: 8%;
-	margin-left: 3%;
-	margin-right: 3%;
-	margin-top: 8%;
-}
+    .personaje img {
+        float: none;
+        max-width: 90%; 
+        margin: 0 0 8% auto 7%; 
+    }
 
-.personaje img {
-	float: none;
-	max-width: 90%; 
-	margin: 0 0 8% auto 7%; 
-}
-.personaje p {
-	text-align: left; 
-	margin-top: 3%; 
-	margin-bottom: 3%;
-	margin-left: 2%;
-}
+    .personaje p {
+        text-align: left; 
+        margin-top: 3%; 
+        margin-bottom: 3%;
+        margin-left: 2%;
+    }
 
-h2{
-	font-size: 1rem;
-}
-h4{
-	font-size: 1rem;
-}
+    h2 {
+        font-size: 1rem;
+    }
 
-.forma_formulario {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+    h4 {
+        font-size: 1rem;
+    }
 
-.form {
-	width: 90%; 
-	margin: 2rem 0; 
-}
+    .forma_formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.imagen {
-	width: 80%; 
-	height: auto; 
-	margin-top: 4%; 
-	margin-bottom: 8%;
-	border-radius: 80%; 
-	border: 3px solid rgb(255, 255, 255); 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+    .form {
+        width: 90%; 
+        margin: 2rem 0; 
+    }
 
-.imagen:hover {
-	transform: none;
-	border: 3px solid rgb(255, 255, 255); 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+    .imagen {
+        width: 80%; 
+        height: auto; 
+        margin-top: 4%; 
+        margin-bottom: 8%;
+        border-radius: 80%; 
+        border: 3px solid rgb(255, 255, 255); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
-footer{
-	height: 150px;
-	text-align: center;
-}
-footer a {
-    margin: 0 5px ; 
-}
+    .imagen:hover {
+        transform: none;
+        border: 3px solid rgb(255, 255, 255); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
-footer img:hover {
-	transform: scale(1);
-}
+    footer {
+        height: auto; 
+        padding: 1rem; 
+        width: 100%; 
+        text-align: center;
+    }
 
-.derecho_autor {
-    
-    bottom: 10px; 
-    left: 68%; 
-    text-align: center; 
-    width: 100%; 
-	margin-left: -50%;
-}
+    footer a {
+        margin: 0 5px ; 
+    }
 
+    footer img:hover {
+        transform: scale(1);
+    }
+
+    .derecho_autor {
+        bottom: 10px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        text-align: center; 
+        width: 100%; 
+    }
 }
