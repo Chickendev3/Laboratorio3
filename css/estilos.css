@@ -686,7 +686,7 @@ p{
 
 }
 
-.scroll-to-top {
+/*.scroll-to-top {
     
     right: 119px; 
     bottom: 10px; 
@@ -701,7 +701,7 @@ p{
     border: none; 
     border-radius: 50%; 
     z-index: 1000; 
-}
+}*/
 
 .scroll-to-top:hover{
 	background-color: #000000f9; 
